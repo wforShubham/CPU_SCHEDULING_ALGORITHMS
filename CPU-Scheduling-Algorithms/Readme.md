@@ -118,37 +118,71 @@ entered as 2-4 means Round Robin with q=4. Also, policy 8-1 means Aging with q=1
 ### EXAMPLE INPUT / OUTPUT...
 
 root@LAPTOP-DK0QHDS0:/mnt/c/Users/wfors/Desktop/CPU-Scheduling-Algorithms# ./lab4
+
 stats
+
 1
+
 20
+
 5
+
 A,0,3
+
 B,2,6
+
 C,4,4
+
 D,6,5
+
 E,8,2
+
 FCFS
+
 Process    |  A  |  B  |  C  |  D  |  E  |
+
 Arrival    |  0  |  2  |  4  |  6  |  8  |
+
 Service    |  3  |  6  |  4  |  5  |  2  | Mean|
+
 Finish     |  3  |  9  | 13  | 18  | 20  |-----|
+
 Turnaround |  3  |  7  |  9  | 12  | 12  | 8.60|
+
 NormTurn   | 1.00| 1.17| 2.25| 2.40| 6.00| 2.56|
 
+
 root@LAPTOP-DK0QHDS0:/mnt/c/Users/wfors/Desktop/CPU-Scheduling-Algorithms# ./lab4
+
 stats
+
 3
+
 20
+
 5
+
 A,0,3
+
 B,2,6
+
 C,4,4
+
 D,6,5
+
 E,8,2
+
 SPN
+
 Process    |  A  |  B  |  C  |  D  |  E  |
+
 Arrival    |  0  |  2  |  4  |  6  |  8  |
+
 Service    |  3  |  6  |  4  |  5  |  2  | Mean|
+
 Finish     |  3  |  9  | 15  | 20  | 11  |-----|
+
 Turnaround |  3  |  7  | 11  | 14  |  3  | 7.60|
+
 NormTurn   | 1.00| 1.17| 2.75| 2.80| 1.50| 1.84|
+
